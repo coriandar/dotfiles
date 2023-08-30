@@ -2,7 +2,7 @@
 vim.g.mapleader = " "
 
 -- fat cursor
-vim.opt.guicursor = ""
+vim.opt.guicursor = "a:block"
 
 -- line numbers
 vim.opt.nu = true
