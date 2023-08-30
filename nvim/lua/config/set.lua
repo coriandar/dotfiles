@@ -1,5 +1,6 @@
 -- leader key
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 -- fat cursor
 vim.opt.guicursor = "a:block"
@@ -21,7 +22,3 @@ vim.opt.wrap = false
 -- search highlighting
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
-
-vim.opt.termguicolors = true
-vim.opt.colorcolumn = "80"
-vim.opt.updatetime = 50

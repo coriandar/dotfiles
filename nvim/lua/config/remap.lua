@@ -20,5 +20,8 @@ vim.keymap.set("v", "P", [["_dP]])
 -- delete into void register
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 
+-- :Ex
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+
 -- never press, disabled
 vim.keymap.set("n", "Q", "<nop>")

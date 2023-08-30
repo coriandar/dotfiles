@@ -1,1 +1,1 @@
-require("coriandar")
+require("config")
