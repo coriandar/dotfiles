@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   "catppuccin/nvim",
+  "nvim-lualine/lualine.nvim",
   "nvim-lua/plenary.nvim",
   "theprimeagen/harpoon",
   {"nvim-telescope/telescope.nvim", tag = "0.1.2"}
