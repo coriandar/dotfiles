@@ -18,11 +18,6 @@ vim.opt.smartindent = true
 -- line wrap
 vim.opt.wrap = false
 
-vim.opt.swapfile = false
-vim.opt.backup = false
-vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
-vim.opt.undofile = true
-
 -- search highlighting
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
@@ -30,45 +25,3 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 vim.opt.colorcolumn = "80"
 vim.opt.updatetime = 50
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
