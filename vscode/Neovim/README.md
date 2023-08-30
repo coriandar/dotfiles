@@ -12,6 +12,3 @@ One Monokai Theme
 | Vim Toggle         | super + esc        |
 +--------------------+--------------------+
 ```
-
-## E576: Error while reading ShaDa file
-- Remove `nvim-data` @ `C:\Users\coriandar\AppData\Local`
