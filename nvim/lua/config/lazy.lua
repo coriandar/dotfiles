@@ -12,9 +12,14 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+  "norcalli/nvim-colorizer.lua",
   "catppuccin/nvim",
+  "nvim-tree/nvim-web-devicons",
   "nvim-lualine/lualine.nvim",
+  "lewis6991/gitsigns.nvim",
   "nvim-lua/plenary.nvim",
   "theprimeagen/harpoon",
+  "mbbill/undotree",
+  "tpope/vim-fugitive",
   {"nvim-telescope/telescope.nvim", tag = "0.1.2"}
 })
