@@ -10,6 +10,9 @@ $newPath = "$env:USERPROFILE\_\nvim-win64\bin"
 # E576: Error while reading ShaDa file
 # Any error just...
 rm -r $env:USERPROFILE\AppData\Local\nvim-data
+
+# Launch path, add to init.lua
+vim.cmd("cd $USERPROFILE\\_Downloads")
 ```
 
 ## nvim-data

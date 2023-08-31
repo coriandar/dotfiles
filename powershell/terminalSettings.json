@@ -35,6 +35,8 @@
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "disableAnimations": true,
     "experimental.rendering.software": false,
+    "initialCols": 100,
+    "initialRows": 50,
     "newTabMenu": 
     [
         {
