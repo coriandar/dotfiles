@@ -1,5 +1,6 @@
 -- leader key
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 -- fat cursor
 vim.opt.guicursor = "a:block"
@@ -18,10 +19,17 @@ vim.opt.smartindent = true
 -- line wrap
 vim.opt.wrap = false
 
+-- undo tree
+vim.opt.swapfile = false
+vim.opt.backup = false
+vim.opt.undofile = true
+
+-- split window bottom
+vim.opt.splitbelow = true
+
 -- search highlighting
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
+-- colours
 vim.opt.termguicolors = true
-vim.opt.colorcolumn = "80"
-vim.opt.updatetime = 50
