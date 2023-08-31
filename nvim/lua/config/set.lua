@@ -19,11 +19,6 @@ vim.opt.smartindent = true
 -- line wrap
 vim.opt.wrap = false
 
--- undo tree
-vim.opt.swapfile = false
-vim.opt.backup = false
-vim.opt.undofile = true
-
 -- split window bottom
 vim.opt.splitbelow = true
 
