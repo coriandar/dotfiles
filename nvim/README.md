@@ -12,7 +12,8 @@ $newPath = "$env:USERPROFILE\_\nvim-win64\bin"
 rm -r $env:USERPROFILE\AppData\Local\nvim-data
 ```
 
-## win
+## nvim-data
 ```
-`ctrl + l`, then `nvim .`
+%LOCALAPPDATA%\nvim-data
+~/.local/share/nvim
 ```
