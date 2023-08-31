@@ -26,5 +26,9 @@ vim.opt.splitbelow = true
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
+-- whitespaces
+vim.opt.list = true
+vim.opt.listchars = {eol = "↴", tab = "  →", space = "⋅"}
+
 -- colours
 vim.opt.termguicolors = true
