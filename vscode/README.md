@@ -15,6 +15,6 @@ One Monokai Theme
 
 ## Linux
 ```java
-curl -LO https://go.microsoft.com/fwlink/?LinkID=760868
-sudo apt install ./<file>.deb
+curl -LJO https://go.microsoft.com/fwlink/?LinkID=760868
+sudo apt install ./<file>.deb -y
 ```
