@@ -20,3 +20,9 @@ vim.cmd("cd $USERPROFILE\\_Downloads")
 %LOCALAPPDATA%\nvim-data
 ~/.local/share/nvim
 ```
+
+## nvim-linux
+```
+/usr/local/bin/
+curl https://github.com/neovim/neovim/releases/download/stable/nvim.appimage --output nvim.appimage
+```
