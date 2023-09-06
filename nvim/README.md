@@ -26,4 +26,7 @@ vim.cmd("cd $USERPROFILE\\_Downloads")
 /usr/local/bin/
 curl -LO https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz
 sudo ln -s ./nvim-linux64/bin/nvim ./nvim
+
+curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
+/usr/share/fonts/nerdfonts
 ```
