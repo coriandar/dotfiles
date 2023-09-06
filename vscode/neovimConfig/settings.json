@@ -25,6 +25,7 @@
 
     // Neovim
     "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\coriandar\\_\\nvim-win64\\bin\\nvim.exe",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
