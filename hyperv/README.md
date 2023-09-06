@@ -12,6 +12,7 @@ sudo apt install -y git neofetch xorg i3 cifs-utils ncdu curl
 ```
 .bashrc
  alias svim="sudo -E vim"
+source ~/.bashrc
 ```
 
 ## i3
