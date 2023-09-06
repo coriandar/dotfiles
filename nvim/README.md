@@ -24,5 +24,6 @@ vim.cmd("cd $USERPROFILE\\_Downloads")
 ## nvim-linux
 ```
 /usr/local/bin/
-curl https://github.com/neovim/neovim/releases/download/stable/nvim.appimage --output nvim.appimage
+curl https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz --output nvim-linux.tar.gz
+sudo ln -s ./nvim-linux64/bin/nvim ./nvim
 ```
