@@ -23,6 +23,7 @@ vim.cmd("cd $USERPROFILE\\_Downloads")
 
 ## nvim-linux
 ```
+sudo apt install -y build-essential gcc
 /usr/local/bin/
 curl -LO https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz
 sudo ln -s ./nvim-linux64/bin/nvim ./nvim
