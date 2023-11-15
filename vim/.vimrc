@@ -2,6 +2,13 @@
 set nu
 set rnu
 
+" tab settings
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+
 " vertical movement centered
 nnoremap j jzz
 nnoremap k kzz
