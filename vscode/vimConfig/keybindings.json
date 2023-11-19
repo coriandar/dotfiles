@@ -5,12 +5,12 @@
         "command": "toggleVim"
     },
     {
-        "key": "alt+j",
+        "key": "shift+j",
         "command": "editor.action.moveLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+k",
+        "key": "shift+k",
         "command": "editor.action.moveLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
     },
