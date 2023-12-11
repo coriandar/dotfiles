@@ -13,6 +13,9 @@ rm -r $env:USERPROFILE\AppData\Local\nvim-data
 
 # Launch path, add to init.lua
 vim.cmd("cd $USERPROFILE\\_Downloads")
+
+# Alternative run
+& "C:\Program Files\Neovim\bin\nvim.exe" "C:\Users\tyee\_Repo\notes"
 ```
 
 ## nvim-data
