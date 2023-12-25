@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings id="2.0">
+  <settings>
+    <child key="Options">
+      <child key="Appearance">
+        <entry key="ShowObjectSnapDialog">True</entry>
+        <entry key="ShowSideBar">False</entry>
+      </child>
+      <child key="OpenGL">
+        <entry key="MajorVersion">2</entry>
+      </child>
+      <child key="Gumball">
+        <entry key="ShowAutoGumball">True</entry>
+      </child>
+      <child key="CursorToolTip">
+        <entry key="DistancePane">True</entry>
+        <entry key="PointPane">True</entry>
+      </child>
+      <child key="FileSettings">
+        <entry key="AutoSaveFile">C:\Users\eeyudot\_Downloads\RhinoAutosave.3dm</entry>
+        <entry key="AutoSaveIncrement">30</entry>
+      </child>
+      <child key="ModelAid">
+        <entry key="ExtendToApparentIntersection">False</entry>
+        <entry key="NudgeKeyStep">100</entry>
+        <entry key="ControlNudgeKeyStep">1000</entry>
+        <entry key="ShiftNudgeKeyStep">10000</entry>
+        <entry key="AltPlusArrows">False</entry>
+      </child>
+      <child key="ShortcutKeys">
+        <entry key="F1">'_SetDisplayMode _Shaded</entry>
+        <entry key="F2">'_SetDisplayMode _C.LINES</entry>
+        <entry key="F3">'_SetDisplayMode _CYCLES</entry>
+        <entry key="F4">'_SetDisplayMode _LINE</entry>
+        <entry key="F5">! _CPlane  _World _Top</entry>
+        <entry key="F6">! _CPlane  _World _Right</entry>
+        <entry key="F7">! _CPlane  _World _Front</entry>
+        <entry key="F8">! _SetObjectDisplayMode</entry>
+        <entry key="F9" />
+        <entry key="F12">'_ViewCaptureToFile</entry>
+        <entry key="CtrlF1">! _SetView _World _Perspective</entry>
+        <entry key="CtrlF2">! _SetView _World _Bottom</entry>
+        <entry key="CtrlF3">! _SetView _World _Top</entry>
+        <entry key="CtrlF4">! _SetView _World _TwoPointPerspective</entry>
+        <entry key="CtrlF5">! _SetView _World _Left</entry>
+        <entry key="CtrlF6">! _SetView _World _Right</entry>
+        <entry key="CtrlF7">! _SetView _World _Front</entry>
+        <entry key="CtrlF8">! _SetView _World _Back</entry>
+        <entry key="CtrlF9">! _Isometric _NE</entry>
+        <entry key="CtrlF10">! _Isometric _NW</entry>
+        <entry key="CtrlF11">! _Isometric _SE</entry>
+        <entry key="CtrlF12">! _Isometric _SW</entry>
+        <entry key="CtrlD">! _Scale1D</entry>
+        <entry key="CtrlE">! _Rotate</entry>
+        <entry key="CtrlF">'_SelColor</entry>
+        <entry key="CtrlP">'_DocumentProperties</entry>
+        <entry key="CtrlShiftC">! _ExtrudeCrv</entry>
+        <entry key="CtrlShiftD">! _Scale</entry>
+        <entry key="CtrlShiftF">! _SelLayer</entry>
+        <entry key="CtrlShiftS">! _ExtrudeSrf</entry>
+      </child>
+      <child key="AliasList">
+        <entry key="AliasDictionary">
+          <dictionary>
+            <value key="B">'_DupBorder</value>
+            <value key="BD">'_BooleanDifference</value>
+            <value key="BU">'_BooleanUnion</value>
+            <value key="C">'_Copy</value>
+            <value key="CC">'_SelCrv</value>
+            <value key="D">'_Move</value>
+            <value key="EX">'_Explode</value>
+            <value key="F">'_MaxViewport</value>
+            <value key="G">'_Group</value>
+            <value key="GG">'_Ungroup</value>
+            <value key="H">'_Hide</value>
+            <value key="HH">'_ShowSelected</value>
+            <value key="HHH">'_Show</value>
+            <value key="L">'_Lock</value>
+            <value key="LL">_UnlockSelected</value>
+            <value key="LLL">'_Unlock</value>
+            <value key="P">'_PlanarSrf</value>
+            <value key="PP">'_SelPolySrf</value>
+            <value key="R">'_Rectangle _3Point</value>
+            <value key="RR">'_Rectangle</value>
+            <value key="S">'_SelSrf</value>
+            <value key="SS">'_SelPolySrf</value>
+            <value key="X">'_Polyline</value>
+            <value key="Z">'_Zoom _Extents</value>
+            <value key="ZE">'_Zoom _Extents</value>
+            <value key="ZEA">'_Zoom _All _Extents</value>
+            <value key="ZO">'_Zoom</value>
+            <value key="ZS">'_Zoom _Selected</value>
+            <value key="ZSA">'_Zoom _All _Selected</value>
+          </dictionary>
+        </entry>
+      </child>
+      <child key="DisplayAttributesManager" hidden="True">
+        <entry key="Major Version">2</entry>
+        <entry key="Minor Version">0</entry>
+        <child key="d7f77a1e-f667-4f29-9811-9bcbd71d30a0">
+          <entry key="Order">15</entry>
+          <entry key="DerivedFrom">c32b72c3-41bd-4adc-82a8-b7aef4456a37</entry>
+          <entry key="Name">C.LINES Mono</entry>
+          <child key="View settings">
+            <entry key="CustomGroundPlaneShow">False</entry>
+            <entry key="CustomGroundPlaneShadowOnly">False</entry>
+          </child>
+          <child key="Shading">
+            <entry key="UseObjectMaterial">True</entry>
+            <child key="Material">
+              <entry key="FrontIsCustom">False</entry>
+              <child key="Front Material">
+                <entry key="OverrideObjectColor">False</entry>
+              </child>
+            </child>
+          </child>
+          <child key="Lighting">
+            <entry key="PerPixelLighting">False</entry>
+          </child>
+          <child key="Objects">
+            <child key="Surfaces">
+              <entry key="ShowIsocurves">True</entry>
+              <entry key="ShowEdges">True</entry>
+              <entry key="EdgeThickness">1</entry>
+              <entry key="EdgeColorReduction">100</entry>
+              <entry key="NakedEdgeColorReduction">100</entry>
+            </child>
+          </child>
+        </child>
+        <child key="9d0062ea-bad4-4a15-beb4-c11e14fc1b7c">
+          <entry key="Order">16</entry>
+          <entry key="DerivedFrom">c32b72c3-41bd-4adc-82a8-b7aef4456a37</entry>
+          <entry key="Name">C.LINES Mono_Lines</entry>
+          <child key="View settings">
+            <entry key="CustomGroundPlaneShadowOnly">False</entry>
+            <entry key="SolidColor">255,105,105,105</entry>
+          </child>
+          <child key="Shading">
+            <child key="Material">
+              <entry key="FrontIsCustom">False</entry>
+            </child>
+          </child>
+          <child key="Lighting">
+            <entry key="PerPixelLighting">False</entry>
+          </child>
+          <child key="Objects">
+            <child key="Surfaces">
+              <entry key="ShowIsocurves">True</entry>
+              <entry key="ShowEdges">True</entry>
+              <entry key="EdgeThickness">1</entry>
+              <entry key="EdgeColorReduction">100</entry>
+              <entry key="NakedEdgeColorReduction">100</entry>
+            </child>
+          </child>
+        </child>
+        <child key="334fce2a-16d3-49d8-8e71-c8f5f97cab02">
+          <entry key="Order">14</entry>
+          <entry key="DerivedFrom">c32b72c3-41bd-4adc-82a8-b7aef4456a37</entry>
+          <entry key="Name">C.LINES Used</entry>
+          <child key="View settings">
+            <entry key="CustomGroundPlaneShow">False</entry>
+            <entry key="CustomGroundPlaneShadowOnly">False</entry>
+            <entry key="SolidColor">255,105,105,105</entry>
+          </child>
+          <child key="Shading">
+            <child key="Material">
+              <entry key="FrontIsCustom">False</entry>
+              <child key="Front Material">
+                <entry key="Diffuse">255,191,255,191</entry>
+                <entry key="Shine">3</entry>
+                <entry key="Transparency">0.00999999977648258</entry>
+              </child>
+            </child>
+          </child>
+          <child key="Objects">
+            <child key="Surfaces">
+              <entry key="ShowEdges">True</entry>
+              <entry key="EdgeThickness">1</entry>
+              <entry key="EdgeColorReduction">100</entry>
+              <entry key="NakedEdgeColorReduction">100</entry>
+            </child>
+          </child>
+        </child>
+        <child key="e8c48106-a5d9-4ca8-a98d-16cfcb38c33d">
+          <entry key="Order">12</entry>
+          <entry key="DerivedFrom">c32b72c3-41bd-4adc-82a8-b7aef4456a37</entry>
+          <entry key="Name">C.LINES</entry>
+          <child key="View settings">
+            <entry key="CustomGroundPlaneShow">False</entry>
+            <entry key="SolidColor">255,105,105,105</entry>
+          </child>
+          <child key="Shading">
+            <entry key="UseObjectMaterial">True</entry>
+            <child key="Material">
+              <entry key="FrontIsCustom">False</entry>
+              <child key="Front Material">
+                <entry key="OverrideObjectColor">False</entry>
+              </child>
+            </child>
+          </child>
+          <child key="Lighting">
+            <entry key="PerPixelLighting">False</entry>
+          </child>
+          <child key="Objects">
+            <child key="Surfaces">
+              <entry key="ShowIsocurves">True</entry>
+              <entry key="ShowEdges">True</entry>
+              <entry key="EdgeThickness">1</entry>
+            </child>
+          </child>
+        </child>
+        <child key="ed13d51c-1741-4e6e-be21-28dc3ee77740">
+          <entry key="Order">11</entry>
+          <entry key="DerivedFrom">c32b72c3-41bd-4adc-82a8-b7aef4456a37</entry>
+          <entry key="Name">CYCLES</entry>
+          <child key="View settings">
+            <entry key="CustomGroundPlaneShow">False</entry>
+            <entry key="CustomGroundPlaneShadowOnly">False</entry>
+            <entry key="SolidColor">255,105,105,105</entry>
+          </child>
+          <child key="Shading">
+            <entry key="UseObjectMaterial">True</entry>
+            <child key="Material">
+              <entry key="FrontIsCustom">False</entry>
+              <child key="Front Material">
+                <entry key="OverrideObjectColor">False</entry>
+              </child>
+            </child>
+          </child>
+        </child>
+        <child key="856c87a4-f09e-404a-aafd-ec997774016b">
+          <entry key="Order">10</entry>
+          <entry key="DerivedFrom">f4616fa5-a831-4620-a97e-9b807d5ec376</entry>
+          <entry key="Name">LINE</entry>
+          <child key="View settings">
+            <entry key="FillMode">2</entry>
+          </child>
+        </child>
+        <child key="c820432b-1638-40f8-84a2-bbef02fdb199">
+          <entry key="Order">16</entry>
+          <entry key="DerivedFrom">8bc8debe-c83b-4c47-b13c-9db074510cac</entry>
+          <entry key="Name">Thick Lines</entry>
+        </child>
+      </child>
+    </child>
+    <child key="DockBarTabs" hidden="True">
+      <child key="699d71d5-edb3-4ee0-8359-42d704446426">
+        <entry key="Orientation">Horizontal</entry>
+        <entry key="IconsOnly">No</entry>
+        <entry key="Tab0">3610bf83-047d-4f7f-93fd-163ea305b493</entry>
+      </child>
+      <child key="5a5b89a0-830f-c90d-5f60-35c2e907e18c">
+        <entry key="Orientation">Horizontal</entry>
+        <entry key="IconsOnly">No</entry>
+        <entry key="Tab0">34ffb674-c504-49d9-9fcd-99cc811dcda2</entry>
+        <entry key="Tab1">6df2a957-f12d-42ea-9fa6-95d7920c1b76</entry>
+        <entry key="pluginid_Tab1">67755633-23fd-4ac5-a18c-c1f14f0ab05d</entry>
+        <entry key="Tab2">d9ac0269-811b-47d1-aa33-777986b13715</entry>
+        <entry key="pluginid_Tab2">67755633-23fd-4ac5-a18c-c1f14f0ab05d</entry>
+      </child>
+      <child key="5b89a097-0f5a-0d83-c95f-6035c2e907e1">
+        <entry key="Orientation">Horizontal</entry>
+        <entry key="IconsOnly">No</entry>
+        <entry key="Tab0">7df2a957-f12d-42ea-9fa6-95d7920c1b76</entry>
+        <entry key="pluginid_Tab0">67755633-23fd-4ac5-a18c-c1f14f0ab05d</entry>
+        <entry key="Tab1">86777b3d-3d68-4965-84f8-9e019c402433</entry>
+        <entry key="pluginid_Tab1">638a0098-0511-482b-95bf-8cf47fd32c17</entry>
+        <entry key="Tab2">1012681e-d276-49d3-9cd9-7de92dc2404a</entry>
+        <entry key="pluginid_Tab2">67755633-23fd-4ac5-a18c-c1f14f0ab05d</entry>
+        <entry key="Tab3">987b1930-ecde-4e62-8282-97ab4ad325fe</entry>
+        <entry key="pluginid_Tab3">67755633-23fd-4ac5-a18c-c1f14f0ab05d</entry>
+      </child>
+    </child>
+    <child key="Startup" hidden="True">
+      <entry key="ForceContextControlBarVisible">False</entry>
+    </child>
+    <child key="Command Use Counts" hidden="True">
+      <entry key="DocumentProperties">1</entry>
+      <entry key="Options">9</entry>
+      <entry key="Rectangle">4</entry>
+      <entry key="Planar">2</entry>
+      <entry key="PlanarSrf">1</entry>
+      <entry key="CommandHistory">1</entry>
+      <entry key="Delete">3</entry>
+      <entry key="Undo">1</entry>
+      <entry key="Polyline">1</entry>
+      <entry key="Trim">2</entry>
+      <entry key="3View">1</entry>
+      <entry key="CloseViewport">1</entry>
+      <entry key="SplitViewportHorizontal">3</entry>
+    </child>
+    <child key="LibraryTabFolderViews">
+      <entry key="1234">5</entry>
+      <entry key="74147F08">1</entry>
+    </child>
+    <child key="LayerManager">
+      <child key="ColumnsModel" hidden="True">
+        <entry key="ColumnOrder">
+          <list>
+            <value>2</value>
+            <value>3</value>
+            <value>4</value>
+            <value>0</value>
+            <value>11</value>
+            <value>9</value>
+            <value>7</value>
+            <value>5</value>
+            <value>1</value>
+            <value>6</value>
+            <value>8</value>
+            <value>10</value>
+            <value>12</value>
+          </list>
+        </entry>
+        <entry key="ColumnWidth">
+          <list>
+            <value>194</value>
+            <value>0</value>
+            <value>21</value>
+            <value>21</value>
+            <value>21</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+          </list>
+        </entry>
+        <entry key="ColumnVisible">
+          <list>
+            <value>1</value>
+            <value>0</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+          </list>
+        </entry>
+      </child>
+      <child key="ColumnsViewportAll" hidden="True">
+        <entry key="ColumnOrder">
+          <list>
+            <value>0</value>
+            <value>1</value>
+            <value>2</value>
+            <value>3</value>
+            <value>4</value>
+            <value>5</value>
+            <value>6</value>
+            <value>7</value>
+            <value>8</value>
+            <value>9</value>
+            <value>10</value>
+            <value>11</value>
+            <value>12</value>
+          </list>
+        </entry>
+        <entry key="ColumnWidth">
+          <list>
+            <value>80</value>
+            <value>21</value>
+            <value>21</value>
+            <value>21</value>
+            <value>21</value>
+            <value>80</value>
+            <value>80</value>
+            <value>21</value>
+            <value>80</value>
+            <value>21</value>
+            <value>21</value>
+            <value>21</value>
+            <value>80</value>
+          </list>
+        </entry>
+        <entry key="ColumnVisible">
+          <list>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+          </list>
+        </entry>
+      </child>
+      <child key="ColumnsViewportGlobal" hidden="True">
+        <entry key="ColumnOrder">
+          <list>
+            <value>0</value>
+            <value>1</value>
+            <value>2</value>
+            <value>3</value>
+            <value>4</value>
+            <value>5</value>
+            <value>6</value>
+            <value>7</value>
+            <value>8</value>
+            <value>9</value>
+            <value>10</value>
+            <value>11</value>
+            <value>12</value>
+          </list>
+        </entry>
+        <entry key="ColumnWidth">
+          <list>
+            <value>80</value>
+            <value>21</value>
+            <value>21</value>
+            <value>21</value>
+            <value>21</value>
+            <value>80</value>
+            <value>80</value>
+            <value>21</value>
+            <value>80</value>
+            <value>21</value>
+            <value>21</value>
+            <value>21</value>
+            <value>80</value>
+          </list>
+        </entry>
+        <entry key="ColumnVisible">
+          <list>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+            <value>0</value>
+          </list>
+        </entry>
+      </child>
+      <child key="ColumnsViewportSpecific" hidden="True">
+        <entry key="ColumnOrder">
+          <list>
+            <value>0</value>
+            <value>1</value>
+            <value>9</value>
+            <value>3</value>
+            <value>10</value>
+            <value>5</value>
+            <value>6</value>
+            <value>11</value>
+            <value>12</value>
+            <value>2</value>
+            <value>4</value>
+            <value>7</value>
+            <value>8</value>
+          </list>
+        </entry>
+        <entry key="ColumnWidth">
+          <list>
+            <value>80</value>
+            <value>21</value>
+            <value>21</value>
+            <value>21</value>
+            <value>21</value>
+            <value>80</value>
+            <value>80</value>
+            <value>21</value>
+            <value>80</value>
+            <value>21</value>
+            <value>21</value>
+            <value>21</value>
+            <value>80</value>
+          </list>
+        </entry>
+        <entry key="ColumnVisible">
+          <list>
+            <value>1</value>
+            <value>1</value>
+            <value>0</value>
+            <value>1</value>
+            <value>0</value>
+            <value>1</value>
+            <value>1</value>
+            <value>0</value>
+            <value>0</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+            <value>1</value>
+          </list>
+        </entry>
+      </child>
+    </child>
+  </settings>
+  <command name="ViewSections">
+    <entry key="Clip">True</entry>
+    <entry key="SetView">False</entry>
+    <entry key="SetPlane">False</entry>
+    <entry key="Display">False</entry>
+  </command>
+  <command name="ExtractSections">
+    <entry key="Join">True</entry>
+    <entry key="AddCrvs">True</entry>
+    <entry key="AddCaps">False</entry>
+    <entry key="AddHatch">False</entry>
+    <entry key="AddSlice">False</entry>
+    <entry key="SliceThickness">1</entry>
+    <entry key="AttMode">True</entry>
+  </command>
+  <command name="ExtractSlices">
+    <entry key="Join">True</entry>
+    <entry key="SliceLocation">0</entry>
+    <entry key="SliceThickness">1</entry>
+    <entry key="Att">True</entry>
+  </command>
+  <command name="Heightfield">
+    <entry key="BitmapType" />
+  </command>
+  <command name="TestPictureFrame">
+    <entry key="BitmapDir" />
+  </command>
+  <command name="Layout">
+    <entry key="printer_name" />
+  </command>
+  <command name="TestOldTextObject">
+    <entry key="AlongCurve">False</entry>
+    <entry key="FlipOrientationAlongCurve">False</entry>
+    <entry key="ModeAlongCurve">0</entry>
+    <entry key="Placement">0</entry>
+  </command>
+  <command name="TestFileSnapShot">
+    <entry key="OptionalString1" />
+    <entry key="OptionalString2" />
+  </command>
+  <command name="TestUntrimAll">
+    <entry key="UnTrim_KeepTrimObjects">0</entry>
+  </command>
+  <command name="Trim">
+    <entry key="Apperent">False</entry>
+  </command>
+</settings>
