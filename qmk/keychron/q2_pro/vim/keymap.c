@@ -1,4 +1,4 @@
-// qmk compile -kb keychron/q2_pro/ansi_knob -km vim
+// qmk compile -kb keychron/q2_pro/ansi_encoder -km vim
 #include QMK_KEYBOARD_H
 
 enum layers {
