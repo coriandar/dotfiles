@@ -8,6 +8,14 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32]
 @=""
 
+; Remove_Gallery_from_navigation_pane_in_File_Explorer_for_all_users
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace_41040327\{e88865ea-0e1c-4e20-9aa6-edcd0212c87c}]
+
+; Remove_Home_from_navigation_pane_in_File_Explorer
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"HubMode"=dword:00000001
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace_36354489\{f874310e-b6b7-47dc-bc84-b9e6b38f5903}]
+
 ; Restore_Windows_Photo_Viewer_CURRENT_USER
 [HKEY_CURRENT_USER\SOFTWARE\Classes\.bmp]
 @="PhotoViewer.FileAssoc.Tiff"
