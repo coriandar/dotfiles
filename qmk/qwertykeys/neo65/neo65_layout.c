@@ -46,9 +46,9 @@
 // Layer 3
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |================================================================================================================================================================|
-| XXXXXXX,  BT_HST1,  BT_HST2,  BT_HST3,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,            RESET,   |
+| XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,            RESET,   |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| BT_TOGG,  XXXXXXX,  XXXXXXX,  XXXXXXX,  BT_2_4G,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,            EE_CLR,  |
+| BT_TOGG,  BT_HST1,  BT_HST2,  BT_HST3,  BT_2_4G,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,            EE_CLR,  |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,            XXXXXXX,            XXXXXXX, |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------+
