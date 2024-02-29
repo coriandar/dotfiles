@@ -17,6 +17,7 @@
     "editor.lineNumbers": "relative",
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block-outline",
+    "editor.linkedEditing": true,
     // "terminal.integrated.fontSize": 14,
     "[markdown]": {
         "editor.wordWrap": "on",
