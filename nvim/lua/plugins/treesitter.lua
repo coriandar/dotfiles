@@ -21,6 +21,7 @@ return {
                 "json",
                 "markdown",
                 "markdown_inline",
+                "php",
             },
         })
     end

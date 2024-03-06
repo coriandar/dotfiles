@@ -14,15 +14,13 @@
 --------------------------------------------------
 
 ## QMK Repo
-```
-https://github.com/Keychron/qmk_firmware/tree/bluetooth_playground/keyboards/keychron
-```
-```
-https://github.com/qmk/qmk_firmware/tree/master/keyboards/gmmk/pro/rev1/ansi
-```
-```
-https://github.com/lizhenmingdirk/qmk_firmware/tree/master/keyboards/neo
-```
+- [keychron/][_keychron]
+- [gmmk/][_gmmk]
+- [neo/][_neo]
+
+[_keychron]: https://github.com/Keychron/qmk_firmware/tree/bluetooth_playground/keyboards/keychron
+[_gmmk]: https://github.com/qmk/qmk_firmware/tree/master/keyboards/gmmk/pro/rev1/ansi
+[_neo]:  https://github.com/lizhenmingdirk/qmk_firmware/tree/master/keyboards/neo
 
 --------------------------------------------------
 

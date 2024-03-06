@@ -1,5 +1,5 @@
 $Prefix = ".xx_"
-$VMName = "Odin"
+$VMName = "Name"
 $User = "xxx"
 $Path = "C:\Users\$User\_VM"
 $Hori = 2560
