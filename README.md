@@ -10,8 +10,10 @@
 ~/.local/share/nvim
 
 // font
+sudo apt install p7zip-full
+mkdir .fonts // in home dir
 curl -LO https://github.com/coriandar/fonts/raw/main/Hack.7z
-/usr/share/fonts/nerdfonts
+7z e Hack.7z
 ```
 
 ### linux
