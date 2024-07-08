@@ -3,6 +3,7 @@
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
 
     // telemetry
@@ -15,18 +16,21 @@
     "editor.cursorStyle": "block-outline",
     "editor.detectIndentation": false,
     "editor.fontSize": 18,
-    "editor.insertSpaces": true,
     "editor.lineNumbers": "relative",
     "editor.linkedEditing": true,
-    "editor.minimap.enabled": true,
     "editor.renderWhitespace": "all",
-    "editor.tabSize": 4,
     "editor.wordWrap": "off",
+
+    // formatting
+    "editor.formatOnSave": false,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
 
     // terminal
     "terminal.integrated.fontSize": 14,
 
     // vim
     "vim.vimrc.enable": true,
-    "vim.vimrc.path": "%USERPROFILE%/_/code/data/.vimrc"
+    "vim.vimrc.path": "C:\\Users\\coriandar\\_\\code\\data\\.vimrc"
 }
