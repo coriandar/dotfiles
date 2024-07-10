@@ -33,6 +33,12 @@ rename with .bak
 
 --------------------------------------------------
 
+### wsl .bashrc
+```bash
+export PATH="$PATH:/mnt/c/Users/coriandar/_/code/bin"
+alias code="code wsl+Ubuntu-24.04"
+```
+
 ### terminal
 ```json
 {
