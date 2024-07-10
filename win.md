@@ -22,6 +22,14 @@ Folder rename > GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
 firefox > about:config
     media.hardwaremediakeys.enabled
 ```
+--------------------------------------------------
+
+### hide drive in explorer sidebar
+```
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}
+
+rename with .bak
+```
 
 --------------------------------------------------
 
@@ -30,8 +38,8 @@ firefox > about:config
 {
     "centerOnLaunch": true,
     "disableAnimations": true,
-    "initialCols": 100,
-    "initialRows": 50,
+    "initialCols": 90,
+    "initialRows": 40,
     "useAcrylicInTabRow": true,
     "profiles": 
     {
@@ -43,6 +51,7 @@ firefox > about:config
             {
                 "face": "Hack Nerd Font Mono"
             },
+            "opacity": 90,
             "padding": "5",
             "scrollbarState": "hidden"
         }
