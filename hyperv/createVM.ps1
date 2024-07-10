@@ -1,7 +1,7 @@
 $Prefix = ".xx_"
 $VMName = "Name"
 $User = "xxx"
-$Path = "C:\Users\$User\_VM"
+$Path = "C:\Users\$User\_VirtualMachines"
 $Hori = 2560
 $Vert = 1440
 $CPU = 2

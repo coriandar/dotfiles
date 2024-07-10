@@ -1,0 +1,25 @@
+{
+    "workbench.activityBar.location": "top",
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+
+    "telemetry.telemetryLevel": "off",
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "none",
+
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block-outline",
+    "editor.detectIndentation": false,
+    "editor.fontSize": 18,
+    "editor.insertSpaces": true,
+    "editor.lineNumbers": "relative",
+    "editor.linkedEditing": true,
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "off",
+
+    "terminal.integrated.fontSize": 16,
+
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "C:\\Users\\coriandar\\_\\code\\data\\.vimrc"
+}
