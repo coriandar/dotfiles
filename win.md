@@ -45,11 +45,11 @@ alias cd_downloads="cd /mnt/c/Users/coriandar/_Downloads"
     "centerOnLaunch": true,
     "disableAnimations": true,
     "initialCols": 90,
-    "initialRows": 40,
+    "initialRows": 45,
     "useAcrylicInTabRow": true,
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
             "colorScheme": "Campbell",
             "cursorShape": "filledBox",
@@ -57,10 +57,11 @@ alias cd_downloads="cd /mnt/c/Users/coriandar/_Downloads"
             {
                 "face": "Hack Nerd Font Mono"
             },
-            "opacity": 90,
-            "padding": "5",
-            "scrollbarState": "hidden"
-        }
+            "opacity": 55,
+            "padding": "10",
+            "scrollbarState": "hidden",
+            "useAcrylic": true
+        },
     }
 }
 ```
