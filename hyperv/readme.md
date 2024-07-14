@@ -1,3 +1,9 @@
+## escape
+```js
+ctl + alt + end // bring up task manager host
+ctl + alt + home // show connection bar
+```
+
 ## ubuntu
 ### ip
 ```js
