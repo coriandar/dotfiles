@@ -53,6 +53,11 @@ firefox > about:config
 
 --------------------------------------------------
 
+### [Microsoft Visual C++ Redistributable][_mvcr]
+[_mvcr]: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+--------------------------------------------------
+
 ### netsh
 
 ```js
