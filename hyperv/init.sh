@@ -34,22 +34,30 @@ install_network() {
 
 install_wsl() {
     printf "\n==========[ bashrc   ]==========\n"
-    local path_line='export PATH="$PATH:/mnt/c/Users/coriandar/_/code/bin"'
-    local alias_line='alias _cd_downloads="cd /mnt/c/Users/coriandar/_Downloads"'
+    local path_code='export PATH="$PATH:/mnt/c/Users/coriandar/_/code/bin"'
+    local alias_download='alias _cd_downloads="cd /mnt/c/Users/coriandar/_Downloads"'
+    local alias_wsl='alias wsl="wsl.exe"'
 
-    if ! grep -q "$path_line" ~/.bashrc; then
-        printf "Adding code Path\n"
+    if ! grep -q "$path_code" ~/.bashrc; then
+        printf "Adding path_code\n"
         printf "\n" >> ~/.bashrc
-        echo "$path_line" >> ~/.bashrc
+        echo "$path_code" >> ~/.bashrc
     else
-        echo "Path line already exists in .bashrc"
+        echo "path_code already exists in .bashrc"
     fi
 
-    if ! grep -q "$alias_line" ~/.bashrc; then
-        echo "Adding alias\n"
-        echo "$alias_line" >> ~/.bashrc
+    if ! grep -q "$alias_download" ~/.bashrc; then
+        echo "Adding alias_download\n"
+        echo "$alias_download" >> ~/.bashrc
     else
-        echo "Alias line already exists in .bashrc"
+        echo "alias_download already exists in .bashrc"
+    fi
+
+    if ! grep -q "$alias_wsl" ~/.bashrc; then
+        echo "Adding alias_wsl\n"
+        echo "$alias_wsl" >> ~/.bashrc
+    else
+        echo "alias_wsl already exists in .bashrc"
     fi
 
     exec bash

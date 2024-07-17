@@ -21,6 +21,12 @@ Folder rename > GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
 
 firefox > about:config
     media.hardwaremediakeys.enabled
+
+[Microsoft Visual C++ Redistributable][_mvcr]
+[_mvcr]: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+--------------------------------------------------
+
 ```
 --------------------------------------------------
 
@@ -50,11 +56,6 @@ firefox > about:config
     }
 }
 ```
-
---------------------------------------------------
-
-### [Microsoft Visual C++ Redistributable][_mvcr]
-[_mvcr]: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
 
 --------------------------------------------------
 
