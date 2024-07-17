@@ -2,18 +2,22 @@ Windows Registry Editor Version 5.00
 ; Created on: June 10th 2024
 ; Updated on: July 17th 2024
 
-; disable_Show_more_options_context_menu
+; disable_show_more_options_context_menu
 [HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32]
 @=""
 
-; remove_Gallery_from_navigation_pane_in_File_Explorer_for_current_user
+; remove_gallery_from_navigation_pane_in_file_explorer_for_current_user
 [HKEY_CURRENT_USER\Software\Classes\CLSID\{e88865ea-0e1c-4e20-9aa6-edcd0212c87c}]
 "System.IsPinnedToNameSpaceTree"=dword:00000000
 
-; remove_Home_from_navigation_pane_in_File_Explorer
+; remove_home_from_navigation_pane_in_file_explorer
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{f874310e-b6b7-47dc-bc84-b9e6b38f5903}]
 
-; restore_Windows_Photo_Viewer_CURRENT_USER
+; disable web_search
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
+"DisableSearchBoxSuggestions"=dword:00000000
+
+; restore_windows_photo_viewer_current_user
 [HKEY_CURRENT_USER\SOFTWARE\Classes\.bmp]
 @="PhotoViewer.FileAssoc.Tiff"
 [HKEY_CURRENT_USER\SOFTWARE\Classes\.cr2]

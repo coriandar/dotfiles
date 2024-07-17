@@ -48,7 +48,7 @@ firefox > about:config
             {
                 "face": "Hack Nerd Font Mono"
             },
-            "opacity": 55,
+            "opacity": 75,
             "padding": "10",
             "scrollbarState": "hidden",
             "useAcrylic": true
