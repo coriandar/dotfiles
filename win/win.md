@@ -24,9 +24,6 @@ firefox > about:config
 
 [Microsoft Visual C++ Redistributable][_mvcr]
 [_mvcr]: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
-
---------------------------------------------------
-
 ```
 --------------------------------------------------
 
@@ -58,6 +55,23 @@ firefox > about:config
 ```
 
 --------------------------------------------------
+
+### firewall
+| Name                | Group | Profile | Enabled | Action | Override | Program                                                                                       | Local Address | Remote Address | Protocol | Local Port | Remote Port | Authorized Computers  | Authorized Local Principals | Local User Owner | PolicyAppId | Application Package  |
+|---------------------|-------|---------|---------|--------|----------|-----------------------------------------------------------------------------------------------|---------------|----------------|----------|------------|-------------|-----------------------|-----------------------------|------------------|-------------|----------------------|
+| _Brave              |       | All     | Yes     | Allow  | No       | %SystemDrive%\Users\coriandar\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
+| _BraveUpdate        |       | All     | Yes     | Allow  | No       | %SystemDrive%\Users\coriandar\AppData\Local\BraveSoftware\Update\BraveUpdate.exe              | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
+| _Edge               |       | All     | Yes     | Allow  | No       | %ProgramFiles% (x86)\Microsoft\Edge\Application\msedge.exe                                    | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
+| _EdgeUpdate         |       | All     | Yes     | Allow  | No       | %ProgramFiles% (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe                             | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
+| _EpicLauncher       |       | All     | Yes     | Allow  | No       | %ProgramFiles% (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe          | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
+| _EpicWebHelper      |       | All     | Yes     | Allow  | No       | %ProgramFiles% (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicWebHelper.exe              | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
+| _Firefox            |       | All     | Yes     | Allow  | No       | %SystemDrive%\Users\coriandar\AppData\Local\Mozilla Firefox\firefox.exe                       | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
+| _MegaSync           |       | All     | Yes     | Allow  | No       | %SystemDrive%\Users\coriandar\AppData\Local\MEGAsync\MEGAsync.exe                             | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
+| _MegaSyncUpdate     |       | All     | Yes     | Allow  | No       | %SystemDrive%\Users\coriandar\AppData\Local\MEGAsync\MEGAupdater.exe                          | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
+| _Steam              |       | All     | Yes     | Allow  | No       | %ProgramFiles% (x86)\Steam\steam.exe                                                          | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
+| _SteamService       |       | All     | Yes     | Allow  | No       | %ProgramFiles% (x86)\Common Files\Steam\steamservice.exe                                      | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
+| _SteamWebHelper     |       | All     | Yes     | Allow  | No       | %ProgramFiles% (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe                             | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
+| _WindowsUpdate      |       | All     | Yes     | Allow  | No       | %SystemRoot%\System32\svchost.exe                                                             | Any           | Any            | Any      | Any        | Any         | Any                   | Any                         | Any              | None        | Any                  |
 
 ### netsh
 
