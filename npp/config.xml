@@ -46,6 +46,7 @@
         <GUIConfig name="MenuBar">hide</GUIConfig>
         <GUIConfig name="Caret" width="4" blinkRate="0" />
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="yes" />
+        <GUIConfig name="openSaveDir" value="2" defaultDirPath="%userprofile%\_Downloads" />
         <GUIConfig name="titleBar" short="no" />
         <GUIConfig name="insertDateTime" customizedFormat="yyyy-MM-dd HH:mm:ss" reverseDefaultOrder="no" />
         <GUIConfig name="wordCharList" useDefault="yes" charsAdded="" />
