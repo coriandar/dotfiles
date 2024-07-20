@@ -37,6 +37,8 @@ install_wsl() {
     local path_code='export PATH="$PATH:/mnt/c/Users/coriandar/_/code/bin"'
     local alias_download='alias _cd_downloads="cd /mnt/c/Users/coriandar/_Downloads"'
     local alias_wsl='alias wsl="wsl.exe"'
+    local alias_fwallow='alias _fwallow="powershell.exe Set-NetFirewallProfile -Name Public -DefaultOutboundAction Allow; powershell.exe Write-Host \"Outbound connections for the Public profile ALLOWED.\""'
+    local alias_fwblock='alias _fwblock="powershell.exe Set-NetFirewallProfile -Name Public -DefaultOutboundAction Block; powershell.exe Write-Host \"Outbound connections for the Public profile BLOCKED.\""'
 
     if ! grep -q "$path_code" ~/.bashrc; then
         printf "Adding path_code\n"
@@ -58,6 +60,20 @@ install_wsl() {
         echo "$alias_wsl" >> ~/.bashrc
     else
         echo "alias_wsl already exists in .bashrc"
+    fi
+
+    if ! grep -q "$alias_fwallow" ~/.bashrc; then
+        echo "Adding alias_fwallow\n"
+        echo "$alias_fwallow" >> ~/.bashrc
+    else
+        echo "alias_fwallow already exists in .bashrc"
+    fi
+
+    if ! grep -q "$alias_fwblock" ~/.bashrc; then
+        echo "Adding alias_fwblock\n"
+        echo "$alias_fwblock" >> ~/.bashrc
+    else
+        echo "alias_fwblock already exists in .bashrc"
     fi
 
     exec bash
