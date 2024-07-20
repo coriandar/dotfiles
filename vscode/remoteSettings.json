@@ -1,6 +1,12 @@
 {
     "workbench.colorTheme": "Catppuccin Mocha",
+    // "workbench.colorTheme": "Matchalk",
+    // "workbench.colorTheme": "poimandres",
+    // "workbench.colorTheme": "Rosé Pine",
+    // "workbench.colorTheme": "Tokyo Night",
     "workbench.iconTheme": "material-icon-theme",
     "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "modifications"
+    "editor.formatOnSaveMode": "modifications",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4
 }

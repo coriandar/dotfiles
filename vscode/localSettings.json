@@ -16,6 +16,7 @@
     "editor.lineNumbers": "relative",
     "editor.linkedEditing": true,
     "editor.renderWhitespace": "all",
+    "editor.tabSize": 4,
     "editor.wordWrap": "off",
 
     "terminal.integrated.fontSize": 16,
