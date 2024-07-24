@@ -4,6 +4,8 @@
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
 
+    "explorer.compactFolders": false,
+
     "telemetry.telemetryLevel": "off",
     "update.enableWindowsBackgroundUpdates": false,
     "update.mode": "none",
