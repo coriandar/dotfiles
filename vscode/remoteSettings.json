@@ -8,5 +8,7 @@
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "modifications",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.tabWidth": 4
+    "editor.detectIndentation": true,
+    "prettier.tabWidth": 4,
+    "files.eol": "\n" // set to LF
 }
