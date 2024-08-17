@@ -27,6 +27,15 @@ firefox > about:config
 ```
 --------------------------------------------------
 
+### WSL
+```
+usermod -l <newUser> -d /home/<newUser> -m dev0
+echo -e "[user]\ndefault=<newUser>" | sudo tee -a /etc/wsl.conf
+wsl --terminate <distroname>
+```
+
+--------------------------------------------------
+
 ### terminal
 ```json
 {
