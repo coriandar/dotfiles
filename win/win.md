@@ -52,7 +52,8 @@ wsl --terminate <distroname>
             "cursorShape": "filledBox",
             "font": 
             {
-                "face": "Hack Nerd Font Mono"
+                "face": "Hack Nerd Font Mono",
+                "size": 11.0
             },
             "opacity": 75,
             "padding": "10",
