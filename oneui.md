@@ -5,6 +5,7 @@
 
 #### System Settings
 - Bluetooth Scanning (Location services): DISABLED
+- Nearby device scanning
 
 #### Battery Settings​
 - Auto optimization: ENABLED
