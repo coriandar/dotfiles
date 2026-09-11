@@ -14,6 +14,9 @@ Sticky keys > OFF
 Active hours > 0900 - 0300
 Set limit = 100000
 
+gpedit
+Computer Configuration > Administrative Templates > System > Device Installation > Prevent automatic download of applications associated with device metadata
+
 Device manager > Bluetooth > View > By connection
     USB Root Hub > Power management > OFF
 
